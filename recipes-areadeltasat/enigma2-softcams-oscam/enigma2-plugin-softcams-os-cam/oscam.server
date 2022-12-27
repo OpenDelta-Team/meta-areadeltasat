@@ -1,0 +1,16 @@
+#############################################
+#           Oscam.server by loda            #
+#            Update 23-07-2020              #
+#         https://areadeltasat.net          #
+#############################################
+
+[reader]
+label = tvsat
+protocol = internal
+detect = cd
+device = /dev/sci0
+cardmhz = 2700
+caid = 183d
+emmcache = 1,1,0
+group = 1
+rsakey = A92DA72FEEACF2947B003ED652153B189E4043B0138C368BDF6B9ED77DDAD6C0761A2198AEB3FC97A19C9D01CA769B3FFFE4F6E70FA4E0696A8980E18D8C58E11D817121346E3E66457FDD84CFA72589B25B538EFC304361B54845F39E9EFA52D805E5FD86B595B366C35716ABC91FA3DC159C9F4D8164B5

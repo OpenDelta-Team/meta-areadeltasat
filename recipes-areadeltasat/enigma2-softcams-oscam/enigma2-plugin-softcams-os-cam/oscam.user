@@ -1,0 +1,19 @@
+#############################################
+#           Oscam.user by loda              #
+#            Update 23-07-2020              #
+#         https://areadeltasat.net          #
+#############################################
+
+[account]
+user = pinco
+group = 1,2,3,4
+au = 1
+monlevel = 0
+
+[account]
+User = 
+Pwd = 
+Group = 
+au = 
+caid = 
+uniq = 3

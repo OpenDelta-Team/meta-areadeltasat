@@ -1,0 +1,40 @@
+#!/bin/sh
+
+remove_tmp () {
+rm -rf /tmp/.oscam /media/usb/oscam/*
+}
+
+case "$1" in
+start)
+	remove_tmp
+	sleep 3
+	exec start-stop-daemon -S -x /usr/bin/oscam -- -b -r 2 -c /etc/tuxbox/config/
+	exit
+	;;
+stop)
+	exec start-stop-daemon -K -R 2 -x /usr/bin/oscam &
+	sleep 2
+	killall -9 oscam 2>/dev/null
+	sleep 2
+	remove_tmp
+	sleep 2
+	exit
+	;;
+restart|reload)
+	$0 stop
+	sleep 1
+	$0 start
+	;;
+version)
+	echo "1.10"
+	;;
+info)
+	echo "oscam"
+	;;
+*)
+	echo "Usage: $0 start|stop|restart"
+	exit 1
+	;;
+esac
+exit 0
+

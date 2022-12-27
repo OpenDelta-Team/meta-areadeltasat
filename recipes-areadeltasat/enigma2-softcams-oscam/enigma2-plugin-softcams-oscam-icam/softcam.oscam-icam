@@ -1,0 +1,27 @@
+#!/bin/sh
+case "$1" in
+start)
+	ulimit -s 1024
+	/usr/bin/oscam-icam --wait 60 --config-dir /etc/tuxbox/config/oscam-icam --daemon --pidfile /tmp/oscam-icam.pid --restart 2 --utf8
+	;;
+stop)
+	kill `cat /tmp/oscam-icam.pid` 2> /dev/null
+	# in case a normal stop failed
+	killall /usr/bin/oscam-icam
+	;;
+restart|reload)
+	$0 stop
+	$0 start
+	;;
+version)
+	echo "gitAUTOINC+4d4cd760ba"
+	;;
+info)
+	echo "oscam-icam"
+	;;
+*)
+	echo "Usage: $0 start|stop|restart"
+	exit 1
+	;;
+esac
+exit 0

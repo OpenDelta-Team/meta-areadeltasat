@@ -1,0 +1,451 @@
+#############################################
+#          Oscam.dvbapi by loda             #
+#            Update 23-07-2020              #
+#         https://areadeltasat.net          #
+#############################################
+#
+# SRG SSR 
+P: 0500:050800 ;
+P: 0500:060200 ;
+I: 0500:040810 ;
+I: 0500:023800 ; 
+
+#Tivusat (IT) 
+P: 183D ;
+P: 183E ;
+
+#Nagra Merlin (IT)
+I: 1856 ;
+
+#Mediaset (IT) 
+P: 1802:000000 ;
+P: 1804:000000 ;
+P: 1805:000000 ;
+        
+#BETV (BE)
+P: 0100:009B ;
+        
+#CANAL+ (FR) 
+P: 0100:0156 ;
+        
+#CANAL DIGITAAL (NL) 
+P: 0100:00006A ;
+        
+#CANAL+/CANAL (FR) 
+P: 0100:3311 ;
+P: 0100:332B ;
+        
+#CYFRA+ (PL) 
+P: 0100:0068 ;
+        
+#MEO (PT) 
+P: 0100:5221 ;
+        
+#NUMERICABLE (FR)
+P: 0100:A821 ;
+        
+#TÈLÈSAT (BE) 
+P: 0100:006D ;
+        
+#TV VLAANDEREN (BE) 
+P: 0100:006C ;
+        
+#Voo (BE) 
+P: 0100:00AA41 ;
+    
+###Viaccess Cards
+        
+#PRIVATE SPICE (UK) 
+P: 0500:032500 ;
+        
+#AL JAZEERA SPORT (QA) 
+P: 0500:042400) ;
+        
+#Bis TV V3 (FR) 
+P: 0500:020810 ;
+        
+#Bis TV V4 (FR) 
+P: 0500:042800 ;
+        
+#Bis TV V5 (FR) 
+P: 0500:042820 ;
+        
+#Bis TV V6 (FR) 
+P: 0500:042820 ;
+        
+#Dorcel/XXL V3 (FR) 
+P: 0500:020810 ;
+        
+#Dorcel HD/XXL SD/REDLIGHT HD/HUSTLER HD V5 (INT)
+P: 0500:043800 ;
+        
+#Mega Elite Royale V5 (INT) 
+P: 0500:043800 ;
+P: 0500:050F00 ;
+P: 0500:FFF8F0 ;
+        
+#TBD 
+P: 0500:020910 ;
+        
+#C-sky 
+P: 0500:022010 ;
+P: 0500:022030 ;
+P: 0500:022050 ;
+        
+#Televisa (MX) 
+P: 0500:022200 ;
+        
+#RTVi (RU) 
+P: 0500:042300 ;
+        
+#NTV+ (RU) 
+P: 0500:023100 ;
+P: 0500:023700 ;
+        
+#NTV+ (RU) V6 
+P: 0500:050100 ;
+        
+#FreeX.TV 5channnels (INT) 
+P: 0500:024400 ;
+        
+#RTVi (RU) 
+P: 0500:024B00 ;
+        
+#TNTSAT V4/V5 (FR) 
+P: 0500:030B00 ;
+        
+#TNTSAT V6 (FR) 
+P: 0500:030B00 ;
+        
+#D-sky (TW) 
+P: 0500:031D00 ;
+        
+#THEME X (BE)
+P: 0500:032000 ;
+        
+#TNtop (FR) 
+P: 0500:032200 ;
+                
+#CANAL+/CANALSAT (FR) V4 
+P: 0500:032820 ;
+        
+#CANAL+/CANALSAT (FR) V5 
+P: 0500:032830 ;
+        
+#CANAL+/CANAL (FR) V6 
+P: 0500:032830 ;
+        
+#ORANGE SAT (FR) V4/V5 
+P: 0500:032900 ;
+        
+#ORANGE SAT (FR) V6 
+P: 0500:032900 ;
+        
+#SOSH xDSL/FTTH (FR) V4 
+P: 0500:032900 ;
+        
+#ORANGE xDSL/FTTH (FR) (V4) 
+P: 0500:041A00 ;
+        
+#FRANSAT (FR) V4 
+P: 0500:041900 ;
+        
+#FRANSAT (FR) V5 
+P: 0500:041950 ;
+        
+#YOUSEE / TDC 
+P: 0500:040210 ;
+                
+#REDLIGHT ELITE FUSION 
+P: 0500:041700 ;
+        
+#MCT/SCT (INT) 
+P: 0500:042700 ;
+        
+#TVR 
+P: 0500:025900 ;
+        
+#HRT Hrvatska Radio Televizija (SB) 
+P: 0500:020A00 ;
+        
+#TVSAT AFRICA (INT) V5 
+P: 0500:042840 ;
+        
+#TELESAT (ex MOBISTAR) (BE) V6 
+I: 0500:051900 ;
+I: 0500:051E00 ;
+    
+####Irdeto Cards
+        
+#Al Jazeera (QA)
+P: 0603:088124 ;
+        
+#Al Jazeera (QA
+P: 0603:0403AE ;
+       
+ #Jazeera Satellite Channel (JSC) (QA)
+P: 0603:139C81 ;
+        
+#SHOWTIME (SA) 
+P: 0604:000100 ;
+        
+#BULSATCOM (BU) 
+P: 0604:010CB1 ;
+        
+#NOVA (GR) 
+P: 0604:000000 ;
+        
+#Skylink (CZ) 
+P: 0624:FFFFFF ;
+        
+#ORF-Digital HD & Au-Sat Plus ohne HD (AT) 
+I: 0648:06C7FF ;
+I: 0650:000000 ;
+        
+#Raduga TV (RU) 
+P: 0652:FFFFFF ;
+        
+#UPC 
+P: 0653:FFFFFF ;
+        
+#DigiTurk (TR)
+P: 0664:000000 ;
+        
+#CSlink (CZ) 
+P: 0666:FFFFFF ;
+        
+#Orbit Showtime Network (OSN) (SA) 
+P: 0668:000100 ;
+        
+#Telkom Vision 
+P: 0604:000000 ;
+    
+#######Videoguard2 Cards
+        
+#Sky Brazil (BR) 
+P: 0907:0000 ;
+       
+#Viasat (SC) 
+P: 090F:0000 ;     
+
+#GET 
+P: 0926:0000 ;
+        
+#Viasat Ukraine (UA) 
+P: 0931:0000 ;
+        
+#Yes IsraÎl (PS) 
+P: 090D:0000 ;
+        
+#Total TV (UK) 
+P: 091F:000000 ;
+        
+#Viasat (SC) 
+P: 093E:0000 ;
+        
+#Freesat (UK) 
+P: 0960:0000 ;
+P: 0961:0000 ;
+        
+#BSkyB (UK) 
+P: 0963:0000 ;
+        
+#FOXTEL (AU) 
+P: 096C:0000 ;
+        
+#Kabel BW (DE) V13 
+I: 098E:0000 ;
+        
+#Astro (DE) 
+P: 09AC:0000 ;
+        
+#Sky Deutschland [NDS|V13] (DE) 
+P: 09C4:000000 ;
+        
+#Sky Deutschland [NDS|V14] (DE) 
+P: 098C:000000 ;
+                
+#Teleclub Schweiz (Cable) (CH) 
+I: 09B6:0000 ;
+        
+#Kabel Deutschland G09 (DE) 
+I: 09C7:000000 ;
+        
+#Kabel Deutschland G02 (DE) 
+I: 09C7:000000 ;
+        
+#Indovision (IN) 
+P: 09C1:000000 ;
+
+#Skyita 
+I: 09CD:000000 ;
+I: 0919:000000 ;
+I: 093B:000000 ;
+    
+#####Conax Cards
+        
+#Technisat 
+P: 0B00:000000 ;
+        
+#WilhelmTel (DE) 
+P: 0B00:000000
+        
+#Quickline (CH) 
+P: 0B00:000000 ;
+        
+#TNK 
+P: 0B00:000000 ;
+        
+#Cabovis„o (PT) 
+P: 0B00:000000 ;
+        
+#DIGITALB (AL) 
+P: 0B00:000000 ;
+        
+#Magio Sat (SK) 
+P: 0B00:000000 ;
+        
+#N-ka 
+P: 0B01:000000 ;
+        
+#Focus Sat - UPC (RO) 
+P: 0B02:000000
+        
+#TRING TV (MK)
+P: 0BAA:000000 ;
+        
+#Kabelkiosk (DE)
+P: 0B00:000000 ;
+        
+#XtraTV (UA) 
+P: 0B0F:000000 ;
+        
+#IMAGIN 
+P: 0B00:000000 ;
+        
+#T-Home (HU) 
+P: 0B00:000000 ;
+        
+#MindigTV Extra (HU) 
+P: 0B00:000000 ;
+    
+#######Cryptoworks Cards
+        
+#DigiTurk (TR) 
+P: 0D00:0000C0 ;
+        
+#UPC DTH (LU) 
+P: 0D02 ;
+        
+#Skylink (DE) 
+P: 0D03 ;
+        
+#ORF (AT) 
+P: 0D05:000004 ;
+P: 0D95 ;
+        
+#Cslink 
+P: 0D0F ;
+        
+#ARENA 
+P: 0D22 ;
+        
+#Skylink ICE (DE) 
+P: 0D96 ;
+P: 0D98 ;
+        
+#UPC 
+P: 0D97 ; 
+
+########Betacrypt
+        
+#Sky Deutschland (DE) 
+P: 1702 ;
+        
+#UM/KD/Sky Deutschland (DE)(Cable)
+I: 1722 ;    
+
+#######Nagra
+        
+#DreamTV N3 
+P: 1801 ;
+        
+#UPC-Cablecom (CH) (Cable)
+I: 1801 ;
+        
+#UPC-Austria (AT) (Cable)
+I: 1801 ;
+        
+#UPC-NL (NL) (Cable)
+I: 1801 ;
+        
+#DigiTV Hu /Ro (HU-RO) 
+P: 1802 ;
+        
+#Telefonica (ES) 
+P: 1802:0000 ;
+        
+#Via Embratel (BR) 
+P: 1802:0000 ;
+        
+#ZON Cabo
+P: 1802 ;
+            
+#Polsat(PL) 
+P: 1803 ;
+            
+#Movistar+ (ES) 
+P: 1810 ;
+      
+#UPC 
+P: 1815 ;
+      
+#Dish Network N3 
+P: 1816 ;
+        
+#HD+ HD01 (DE) 
+P: 1830 ;
+        
+#MAXTV (HR) 
+P: 1830 ;
+        
+#UM(UM01)GER (DE) (Cable)
+I: 1831 ;
+        
+#Sky Deutschland Nagra3 (DE)
+P: 1833 ;
+        
+#KDH D09 (Cable)
+I: 1834 ;
+        
+3UM(UM02)Deutschland (DE) (Cable)
+I: 1838 ;
+        
+        
+#HD+ HD02 (DE) 
+P: 1843 ;
+        
+3HD+ HD03 (DE) 
+P: 1860 ;
+        
+#Polsat
+P: 1861 ;
+        
+#Telefonica Movistar (South America) 
+P: 1861 ;
+        
+#UPC-Cablecom (CH) (Cable)
+I: 1862 ;
+        
+#Cabovis„o (PT) (Cable)
+I: 1863 ;
+        
+#HD+ HD04 (DE) 
+P: 186A ;
+        
+#DigiTV (HU-RO)
+P: 1880 ;
+        
+#Telecom /Lama (SK-CZ)
+P: 1882 ;   
+																																																																																																																																																																																																																																							
